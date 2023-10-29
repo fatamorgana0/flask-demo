@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html> 
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Wrrrrr...</title>
     <style>
       .big {
@@ -8,7 +11,6 @@
         font-family: Papyrus;
         font size: 40px;
         font-weight: normal;
-        text-align: center;
       }
 
       #banner{
@@ -17,30 +19,24 @@
         
       }
 
-      #container {
-        max-width: 500px;
-        margin: 0 auto;
         
       }
     </style>
   </head>
   <body>
-    <div id = "container">
-    <h1 class = "big"> Nature in Samurai Jack</h1>
-    <img id = "banner" src=https://flask-demo.gustawszymanski.repl.co/static/banner.png height="320">
-    <h2>About the Samurai</h2>
-      <p>
-      Samurai Jack is an American animated action-adventure dystopian television series created by Genndy Tartakovsky for Cartoon Network and Adult Swim. The show is produced by Cartoon Network Studios. Tartakovsky conceived Samurai Jack after finishing his work on his first Cartoon Network original series, Dexter's Laboratory, which premiered in 1996. Samurai Jack took inspiration from Kung Fu, the 1972 televised drama starring David Carradine, Tartakovsky's fascination with samurai culture and the Frank Miller comic series Ronin.
-      </p>
-    <h2>Examples of nature</h2>
-    <div style ="text-align:center;">
-    <button>
-      Contact Jack!
-    </button>
-      <p>
-        Wahhhahhhaaa....
-      </p>
-    </div>
-  </body>
-  </div>
+    <div class = "container" >
+      <h1  class = "big text-center mt-3 mb-2" > Nature in Samurai Jack</h1>
+      <img id = "banner" src=https://flask-demo.gustawszymanski.repl.co/static/banner.png height="320">
+      <h2 class = "text-center mt-2">About the Samurai</h2>
+        <p>
+        Samurai Jack is an American animated action-adventure dystopian television series created by Genndy Tartakovsky for Cartoon Network and Adult Swim. The show is produced by Cartoon Network Studios. Tartakovsky conceived Samurai Jack after finishing his work on his first Cartoon Network original series, Dexter's Laboratory, which premiered in 1996. Samurai Jack took inspiration from Kung Fu, the 1972 televised drama starring David Carradine, Tartakovsky's fascination with samurai culture and the Frank Miller comic series Ronin.
+        </p>
+      <h2 class = "text-center">Examples of nature</h2>
+      <div style ="text-align:center;">
+        <button  class = "btn btn-secondary" type="button">
+          <p class = "text-center ">Contact Jack!</p>
+        </button>
+      </div>
+      </div>
+    </body>
 </html>
