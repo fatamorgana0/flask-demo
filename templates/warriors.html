@@ -1,0 +1,23 @@
+  <div class = "row">
+    <div class ="col-9" >
+      <h4 style ="color:rgb(255,165,0)">{{person['name']}}
+      </h4>
+      {% if 'background' in person%}
+      <div>
+        <b>Background: 
+{{person['background']}}</b>
+      </div>
+      {% endif %}
+      <div>
+        <b>What you can expect to pay: 
+      {{person['avg pay for the job']}}</b>
+        <hr>
+      </div>
+    </div>
+    <div class = "col-3">
+      <button  class = "btn btn-secondary" type="take the task!">
+        <p class = "text-center ">Contact {{protagonist}}!</p>
+      </button>
+    </div>
+  <div>
+
